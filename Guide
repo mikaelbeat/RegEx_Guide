@@ -1,3 +1,7 @@
 
 Select everything between, after something
 (?<=start).*(?<=end)
+
+Replace data containin 1-7 digits and 1-20 characters to EDITED_FOR_TESTING
+e.g 1234567_abcdefghijklmnopqrst
+\\d{1,7}_\\w{1,20}  EDITED_FOR_TESTING
